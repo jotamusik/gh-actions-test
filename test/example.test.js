@@ -1,4 +1,3 @@
-
 import Example from "../src/example";
 
 describe('Example Class Definition', function () {
@@ -15,5 +14,10 @@ describe('Example Class Definition', function () {
     let newExampleVariable = 'exampleModified';
     example.setExampleVariable(newExampleVariable);
     expect(example.exampleVariable).toBe(newExampleVariable);
+  });
+  test('Should have an exampleVariable setter', function () {
+    let example = new Example();
+    example.setExampleVariable('exampleModified');
+    expect(example.exampleVariable).toBe('asdf');
   });
 });
