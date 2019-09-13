@@ -4,11 +4,9 @@ on: [push]
 
 jobs:
   notify:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: techulus/push-github-action@master
         env:
           API_KEY: 3ed759e8-7ce4-4400-bb04-5cb5f06674f4
-          MESSAGE: Push hecho al repo de gh-actions-test
+          MESSAGE: Push hecho al repo de ${{github.repository}}
