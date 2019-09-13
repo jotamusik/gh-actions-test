@@ -4,6 +4,9 @@ on: [push]
 
 jobs:
   notify:
+
+    runs-on: ubuntu-latest
+
     steps:
       - uses: techulus/push-github-action@master
         env:
