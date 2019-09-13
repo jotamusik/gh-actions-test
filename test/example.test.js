@@ -15,9 +15,4 @@ describe('Example Class Definition', function () {
     example.setExampleVariable(newExampleVariable);
     expect(example.exampleVariable).toBe(newExampleVariable);
   });
-  test('Should have an exampleVariable setter', function () {
-    let example = new Example();
-    example.setExampleVariable('exampleModified');
-    expect(example.exampleVariable).toBe('asdf');
-  });
 });
