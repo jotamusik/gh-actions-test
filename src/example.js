@@ -7,8 +7,4 @@ export default class Example {
   getExampleVariable() {
     return this.exampleVariable;
   }
-
-  setExampleVariable(exampleVariable) {
-    this.exampleVariable = exampleVariable;
-  }
 }
