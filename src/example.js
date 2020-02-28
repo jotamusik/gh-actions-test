@@ -4,7 +4,7 @@ export default class Example {
     this.exampleVariable = 'example';
   }
 
-  setExampleVariable(exampleVariable) {
-    this.exampleVariable = exampleVariable;
+  getExampleVariable() {
+    return this.exampleVariable;
   }
 }
